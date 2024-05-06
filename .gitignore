@@ -1,2 +1,6 @@
 .DS_Store
-bin/
+
+# exclude only bin content
+bin/*
+!bin/.gitkeep
+
